@@ -1,4 +1,4 @@
-![Dwm](https://raw.githubusercontent.com/antoniosarosi/dotfiles/master/.screenshots/dwm.png)
+![Dwm](https://raw.githubusercontent.com/z4ft0shi/dotfiles/master/.screenshots/dwm.png)
 
 ***Language***
 - [🇪🇸 Español](./README.es.md)
@@ -30,24 +30,24 @@ yay -S nerd-fonts-ubuntu-mono
 
 I always use that font for icons.
 You will also need my custom
-**[dwmblocks](https://github.com/antoniosarosi/dwm/tree/master/dwmblocks)**
-and **[~/.local/bin](https://github.com/antoniosarosi/dotfiles/tree/master/.local/bin)**
+**[dwmblocks](https://github.com/z4ft0shi/dwm/tree/master/dwmblocks)**
+and **[~/.local/bin](https://github.com/z4ft0shi/dotfiles/tree/master/.local/bin)**
 scripts.
 
 ```bash
 # dwm & dwmblocks
 cd ~/.config
-git clone https://github.com/antoniosarosi/dwm.git
+git clone https://github.com/z4ft0shi/dwm.git
 mkdir -p ~/.local/share/dwm
 ln -s ~/.config/dwm/autostart.sh ~/.local/share/dwm
 
 # Scripts
 mkdir -p ~/.local/bin
 cd ~/.local/bin
-curl -sL "https://raw.githubusercontent.com/antoniosarosi/dotfiles/master/.local/bin/battery" -o battery
-curl -sL "https://raw.githubusercontent.com/antoniosarosi/dotfiles/master/.local/bin/volume" -o volume
-curl -sL "https://raw.githubusercontent.com/antoniosarosi/dotfiles/master/.local/bin/percentage" -o percentage
-curl -sL "https://raw.githubusercontent.com/antoniosarosi/dotfiles/master/.local/bin/brightness" -o brightness
+curl -sL "https://raw.githubusercontent.com/z4ft0shi/dotfiles/master/.local/bin/battery" -o battery
+curl -sL "https://raw.githubusercontent.com/z4ft0shi/dotfiles/master/.local/bin/volume" -o volume
+curl -sL "https://raw.githubusercontent.com/z4ft0shi/dotfiles/master/.local/bin/percentage" -o percentage
+curl -sL "https://raw.githubusercontent.com/z4ft0shi/dotfiles/master/.local/bin/brightness" -o brightness
 chmod 755 battery volume percentage brightness
 
 # These scripts have some dependencies
@@ -102,5 +102,5 @@ sudo make clean install
 Once that's done, you can login. But keep in mind keybindings will not work
 unless you have the same programs that I use and the same configs. You can
 either change keybindings or install the software I use and my config files,
-check out [my dotfiles repo](https://github.com/antoniosarosi/dotfiles#keybindings)
+check out [my dotfiles repo](https://github.com/z4ft0shi/dotfiles#keybindings)
 for instructions.

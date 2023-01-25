@@ -1,1 +1,1 @@
-See **[dwm](https://github.com/antoniosarosi/dwm)** for more info.
+See **[dwm](https://github.com/z4ft0shi/dwm)** for more info.
